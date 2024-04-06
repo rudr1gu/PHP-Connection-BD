@@ -1,0 +1,17 @@
+{
+    "name": "user/php-bd",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rodrigo Santos"      
+        }
+    ]
+}
